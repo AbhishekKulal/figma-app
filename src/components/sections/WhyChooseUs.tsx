@@ -1,16 +1,25 @@
 import React from 'react';
-import { FaStar, FaDumbbell, FaWifi, FaCoffee, FaRupeeSign, FaCouch, FaClock, FaTableTennis } from 'react-icons/fa';
+import eventIcon from "../../assets/icons/event.svg"
+
+import gymIcon from "../../assets/icons/gym.svg"
+import wifiIcon from "../../assets/icons/wifi.svg"
+import cafeIcon from "../../assets/icons/cafe.svg"
+import loungesIcon from "../../assets/icons/lounges.svg"
+import priceIcon from "../../assets/icons/price.svg"
+import timerIcon from "../../assets/icons/timer.svg"
+import soprtsIcon from "../../assets/icons/sports.svg"
+
 
 const WhyChooseUs: React.FC = () => {
   const features = [
-    { icon: <FaStar className="text-yellow-400 text-4xl" />, title: "Community Events" },
-    { icon: <FaDumbbell className="text-yellow-400 text-4xl" />, title: "Gym Facilities" },
-    { icon: <FaWifi className="text-yellow-400 text-4xl" />, title: "Highspeed Wifi" },
-    { icon: <FaCoffee className="text-yellow-400 text-4xl" />, title: "Cafe & Tea Bar" },
-    { icon: <FaRupeeSign className="text-yellow-400 text-4xl" />, title: "Affordable" },
-    { icon: <FaCouch className="text-yellow-400 text-4xl" />, title: "Comfort Lounges" },
-    { icon: <FaClock className="text-yellow-400 text-4xl" />, title: "Quick Booking" },
-    { icon: <FaTableTennis className="text-yellow-400 text-4xl" />, title: "Sports Area" },
+    { icon: <img src={eventIcon} alt="event" className="text-yellow-400 text-4xl" />, title: "Community Events" },
+    { icon: <img src={gymIcon} alt="gym" className="text-yellow-400 text-4xl" />, title: "Gym Facilities" },
+    { icon: <img src={wifiIcon} alt="wifi" className="text-yellow-400 text-4xl" />, title: "Highspeed Wifi" },
+    { icon: <img src={cafeIcon} alt="cafe" className="text-yellow-400 text-4xl" />, title: "Cafe & Tea Bar" },
+    { icon: <img src={priceIcon} alt="afforable" className="text-yellow-400 text-4xl" />, title: "Affordable" },
+    { icon: <img src={loungesIcon} alt="comfort" className="text-yellow-400 text-4xl" />, title: "Comfort Lounges" },
+    { icon: <img src={timerIcon} alt="quick booking" className="text-yellow-400 text-4xl" />, title: "Quick Booking" },
+    { icon: <img src={soprtsIcon} alt="soprts" className="text-yellow-400 text-4xl" />, title: "Sports Area" },
   ];
 
   return (

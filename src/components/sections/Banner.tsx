@@ -5,12 +5,12 @@ import vector from '../../assets/images/vector.svg'
 import '../../index.css'
 const Hero: React.FC = () => {
 
-   
+
     return (
         <div className="bg-gray-50 relative" style={{
             height: '500px'
         }}>
-            <div className="container mx-auto flex flex-col md:flex-row md:items-start sm:items-end justify-between">
+            <div className="container max-w-7xl mx-auto flex flex-col md:flex-row md:items-start sm:items-end justify-between">
                 <div className="hidden md:flex md:w-1/2 mb-8 md:mb-0 page-title" >
                     <img src={meetingIllustration} alt="Meeting Illustration" className="w-1/2 mx-auto absolute"
                         style={{
@@ -31,12 +31,7 @@ const Hero: React.FC = () => {
                 </div>
                 <div
                     className="md:w-1/2"
-                //   style={{
-                //     backgroundImage: `url(${vector})`,
-                //     backgroundRepeat: 'no-repeat',
-                //     backgroundPosition: 'center',
-                //     backgroundSize: 'contain'
-                //   }}
+
                 >
                     <img src={vector} alt="p" style={{
                         float: 'right',
@@ -68,14 +63,7 @@ const Hero: React.FC = () => {
                 </div>
             </div>
 
-            {/* <img src='https://raw.githubusercontent.com/MujtabaKably/bhive-interview-project-data/refs/heads/main/static_assets/0a74575ca6004b4bb20dcd131afc5849.jpg'
-      alt="aa"/>
-      <WhyChooseUs/>
 
-      <p className='line-clamp-2'>
-        aaaamnbj
-        ajhkakja  ajhjabhja jahkjaa  ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa ajhkakja  ajhjabhja jahkjaa
-      </p> */}
         </div>
     );
 };

@@ -13,7 +13,6 @@ const Overview: React.FC = () => {
         setIsLoading(true)
         api.get('https://raw.githubusercontent.com/MujtabaKably/bhive-interview-project-data/refs/heads/main/data.json')
             .then((res) => {
-                debugger
                 setSpaceOverview(res?.data || [])
                 setIsLoading(false)
             })

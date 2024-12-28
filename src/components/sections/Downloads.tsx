@@ -14,7 +14,7 @@ const Downloads: React.FC = () => {
                 </div>
                 <div className='flex items-end'>
                     <img src={downloadImage} alt="download" />
-                    <div className='shadow-md bhvive-card rounded-lg flex flex-col justify-center pr-12 pl-14 gap-10' style={{
+                    <div className='hidden sm:flex shadow-md bhvive-card rounded-lg flex-col justify-center pr-12 pl-14 gap-10' style={{
                         height: '255px',
                         width: '100%',
                         
