@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media screen and (max-width: 639px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .page-title {
+      height: 24rem;
+      display: flex;
+      align-items: center;
+  }
+}
+body {
+  margin: 0;
+  font-family:  'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #263238;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.page-title{
+  height: 24rem;
+      display: flex;
+      align-items: center; 
+}
